@@ -194,7 +194,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-blend-mode: overlay;
-        background-color: rgba(33, 33, 33, 0.75);
+        background-color: rgba(194, 194, 194, 0.75);
     }
 
     .about-teaser h2 {

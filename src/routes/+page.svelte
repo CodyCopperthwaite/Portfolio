@@ -24,7 +24,7 @@
 
 
 <svelte:head>
-    <title>Starter Kit</title>
+    <title>Cody Copperthwaite</title>
 </svelte:head>
 
 
@@ -32,7 +32,7 @@
 <div class="home-container">
     <!-- Hero Section -->
     <section class="hero">
-        <h1>Live Mindfully. Learn Purposefully.</h1>
+        <h1>Always adapting, never settling for less</h1>
         <p class="subheading">
             Inspired by the 7 Virtues of Bushidō and the 11 Principles of the Shinobi.
         </p>

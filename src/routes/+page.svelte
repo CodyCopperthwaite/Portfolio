@@ -34,16 +34,16 @@
     <section class="hero">
         <h1>Always adapting, never settling for less</h1>
         <p class="subheading">
-            Inspired by the 7 Virtues of Bushidō and the 11 Principles of the Shinobi.
+            From unique designs to industry standard, I can do it.
         </p>
         <button class="inspire-button" on:click={openQuoteModal}>
-            Find Inspiration
+            Gallery
         </button>
     </section>
 
     <!-- Featured Catalogue Section -->
     <section class="featured">
-        <h2>Featured Practices</h2>
+        <h2>Featured Works</h2>
         <div class="card-grid">
             {#each featuredItems as item, index}
                 <button
@@ -63,15 +63,16 @@
                 </button>
             {/each}
         </div>
-        <a class="browse-link" href="{resolve('/catalogue')}">Browse Full Catalogue →</a>
+        <a class="browse-link" href="{resolve('/catalogue')}">Browse Full Gallery →</a>
     </section>
 
     <!-- About Teaser Section -->
     <section class="about-teaser">
-        <h2>Why This Matters</h2>
+        <h2>Who I am</h2>
         <p>
-            This project blends timeless wisdom with modern habits — from Stoic journaling to Shinobi adaptability.
-            Whether you seek health, discipline, or mindfulness, our tools are here to guide you.
+            My name is Cody Copperthwaite, and I am a 3D artist and designer with experience in the games industry.
+            I am always up for a challenge. whether its character design, environment art or 3d modelling, if it's needed, i can make it.
+
         </p>
         <a href="{resolve('/about')}" class="learn-more">Learn more →</a>
     </section>
@@ -103,7 +104,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-blend-mode: overlay;
-        background-color: rgba(255, 255, 255, 0.75);
+        background-color: rgba(104, 104, 104, 0.75);
     }
 
     .hero h1 {
@@ -142,7 +143,7 @@
         background-image: url('/images/backgrounds/rice-texture.png');
         background-size: 200px;
         background-repeat: repeat;
-        background-color: rgba(255, 255, 255, 0.85);
+        background-color: rgba(75, 75, 75, 0.85);
     }
 
     .featured h2 {
@@ -193,7 +194,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-blend-mode: overlay;
-        background-color: rgba(255, 255, 255, 0.75);
+        background-color: rgba(33, 33, 33, 0.75);
     }
 
     .about-teaser h2 {

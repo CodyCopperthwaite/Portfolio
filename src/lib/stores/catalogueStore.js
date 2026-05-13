@@ -16,8 +16,8 @@ const initialCatalogue = [
     },
     {
         id: "2",
-        title: "Digital Declutter",
-        description: "A mindful practice of clearing digital clutter from your phone, desktop, and online space.",
+        title: "Pegasus Drawing",
+        description: "A 2D drawing that demonstrates texture and shading.",
         category: "focus",
         tags: ["focus", "discipline", "organisation"],
         featured: false,

@@ -7,8 +7,8 @@ import { writable, derived } from 'svelte/store';
 const initialCatalogue = [
     {
         id: "1",
-        title: "Morning Stretch Ritual",
-        description: "A gentle full-body stretch routine rooted in yoga and shinobi practices to awaken body and mind.",
+        title: "dregs drought",
+        description: "A  3d model made for a 4th year project called Blackout Jack.",
         category: "movement",
         tags: ["mindfulness", "morning", "mobility"],
         featured: false,

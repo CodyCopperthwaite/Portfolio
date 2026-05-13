@@ -16,7 +16,7 @@ const initialCatalogue = [
     },
     {
         id: "2",
-        title: "Pegasus Drawing",
+        title: 'Pegasus Drawing',
         description: "A 2D drawing that demonstrates texture and shading.",
         category: "focus",
         tags: ["focus", "discipline", "organisation"],

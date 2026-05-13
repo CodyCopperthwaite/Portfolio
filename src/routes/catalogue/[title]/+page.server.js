@@ -1,7 +1,7 @@
 export async function entries() {
 	return [
 		{ title: "Dregs Drought" },
-		{ title: "Digital Declutter" },
+		{ title: 'Pegasus Drawing' },
 		{ title: "Evening Journaling" },
 		{ title: "Breath Awareness" },
 		{ title: "Nature Walks" },

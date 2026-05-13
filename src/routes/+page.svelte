@@ -49,7 +49,7 @@
                 <button
 					type="button"
 					class="card-button"
-					on:click={() => goto(resolve('/catalogue/[title]', { title: item.title }))}
+					on:click={() => goto(`/catalogue/${encodeURIComponent(item.title)}`)}
 					aria-label={`View details for ${item.title}`}
 				>
                     <CatalogueCard
@@ -63,7 +63,7 @@
                 </button>
             {/each}
         </div>
-        <a class="browse-link" href="{resolve('/catalogue')}">Browse Full Gallery →</a>
+        <a class="browse-link" href={resolve('/catalogue')}>Browse Full Gallery →</a>
     </section>
 
     <!-- About Teaser Section -->
@@ -74,7 +74,7 @@
             I am always up for a challenge. whether its character design, environment art or 3d modelling, if it's needed, i can make it.
 
         </p>
-        <a href="{resolve('/about')}" class="learn-more">Learn more →</a>
+        <a href={resolve('/about')} class="learn-more">Learn more →</a>
     </section>
 
     <!-- Quote Modal -->

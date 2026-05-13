@@ -7,7 +7,7 @@ import { writable, derived } from 'svelte/store';
 const initialCatalogue = [
     {
         id: "1",
-        title: "dregs drought",
+        title: "Dregs Drought",
         description: "A  3d model made for a 4th year project called Blackout Jack.",
         category: "movement",
         tags: ["mindfulness", "morning", "mobility"],

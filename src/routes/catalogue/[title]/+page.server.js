@@ -2,8 +2,8 @@ export async function entries() {
 	return [
 		{ title: "Dregs Drought" },
 		{ title: 'Pegasus Drawing' },
-		{ title: "Evening Journaling" },
-		{ title: "Breath Awareness" },
+		{ title: "3d contruction crane" },
+		{ title: "Spray style mustang" },
 		{ title: "Nature Walks" },
 		{ title: "Weekly Reflection" },
 		{ title: "Obstacle Reframing" },

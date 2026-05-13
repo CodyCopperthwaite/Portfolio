@@ -25,8 +25,8 @@ const initialCatalogue = [
     },
     {
         id: "3",
-        title: "Evening Journaling",
-        description: "A structured journaling method inspired by Marcus Aurelius and the Bushidō value of reflection.",
+        title: "3d contruction crane",
+        description: "A 3D crane with HD textures and shaders",
         category: "reflection",
         tags: ["stoicism", "gratitude", "habit"],
         featured: true,
@@ -34,8 +34,8 @@ const initialCatalogue = [
     },
     {
         id: "4",
-        title: "Breath Awareness",
-        description: "Learn the art of breath control (kokyū) to centre attention and regulate stress.",
+        title: "Spray style mustang",
+        description: "A 2D drawing of a mustang with spray paint style shading and highlights",
         category: "calm",
         tags: ["zen", "calm", "resilience"],
         featured: true,

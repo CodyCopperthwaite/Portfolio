@@ -1,6 +1,6 @@
 export async function entries() {
 	return [
-		{ title: "Morning Stretch Ritual" },
+		{ title: "Dregs Drought" },
 		{ title: "Digital Declutter" },
 		{ title: "Evening Journaling" },
 		{ title: "Breath Awareness" },

@@ -3,16 +3,34 @@ import { get } from 'svelte/store';
 import { catalogue } from '$lib/stores';
 
 
+const normalizeTitle = (value) =>
+	value
+		.trim()
+		.replace(/\s+/g, ' ')
+		.toLowerCase();
+
 /** @type {import('./$types').PageLoad} */
 export function load({ params }) 
 {
-  const title = params.title;
+	let title = params.title;
+
+	try {
+		title = decodeURIComponent(params.title);
+	} catch {
+		// keep original if decoding fails
+	}
+
 	const allItems = get(catalogue);
-	const item = allItems.find((i) => i.title === title);
+	let item = allItems.find((i) => i.title === title);
 
-  if (!item) {
-    throw error(404, 'Catalogue item not found');
-  }
+	if (!item) {
+		const normalizedTitle = normalizeTitle(title);
+		item = allItems.find((i) => normalizeTitle(i.title) === normalizedTitle);
+	}
 
-  return { item };
+	if (!item) {
+		throw error(404, 'Catalogue item not found');
+	}
+
+	return { item };
 }

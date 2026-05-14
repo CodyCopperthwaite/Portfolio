@@ -66,14 +66,14 @@
         <figure>
             <img src={asset("/images/about/shrine.png")} alt="Mountain Shrine at Dawn" />
             <figcaption>
-                A mountain shrine illuminated by dawn — symbolising spiritual focus and clarity of purpose.
+                Dublin city, Northside. Cody's works are inspired by the multicultural streets and people.
             </figcaption>
         </figure>
 
         <figure>
             <img src={asset("/images/about/samurai.png")} alt="Samurai in Silhouette against Setting Sun" />
             <figcaption>
-                A lone samurai silhouetted at sunset — reflecting discipline, solitude, and the inner path of virtue.
+                Cody Copperthwaite, a 2d, 3d designer and tatoo artist. Born and raised in Dublin.
             </figcaption>
         </figure>
 

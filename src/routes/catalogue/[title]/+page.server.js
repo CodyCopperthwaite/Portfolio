@@ -4,17 +4,17 @@ export async function entries() {
 		{ title: 'Pegasus Drawing' },
 		{ title: "3d contruction crane" },
 		{ title: "Spray style mustang" },
-		{ title: "Nature Walks" },
-		{ title: "Weekly Reflection" },
-		{ title: "Obstacle Reframing" },
-		{ title: "One-Meal Fasting Practice" },
-		{ title: "Power Posture Drills" },
-		{ title: "Visualisation Ritual" },
-		{ title: "Cold Exposure Start" },
-		{ title: "The 5-Minute Mind Sweep" },
-		{ title: "Honor Code Exercise" },
-		{ title: "Gratitude Bow Practice" },
-		{ title: "Tea Ceremony Lite" }
+		{ title: "Red planet digital painting" },
+		{ title: "Mars" },
+		{ title: "lost" },
+		{ title: "Treasure planet" },
+		{ title: "hawaii poster" },
+		{ title: "medieval" },
+		{ title: "Datura" },
+		{ title: "scythe" },
+		{ title: "dagger" },
+		{ title: "Snow patrol" },
+		{ title: "Two faced" }
 		// Add all valid catalogue IDs here
 	];
 }

@@ -6,7 +6,7 @@ import { catalogue } from '$lib/stores';
 /** @type {import('./$types').PageLoad} */
 export function load({ params }) 
 {
-  const title = decodeURIComponent(params.title);
+  const title = params.title;
 	const allItems = get(catalogue);
 	const item = allItems.find((i) => i.title === title);
 

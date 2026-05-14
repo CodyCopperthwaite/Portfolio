@@ -34,11 +34,9 @@
 
 
 <section class="intro section-hero">
-    <h1>About the Starter Kit</h1>
+    <h1>Why choose me</h1>
     <p>
-        This project was designed as a learning platform and design reference for aspiring front-end developers.
-        It introduces foundational concepts in web design, UI/UX principles, accessibility, and mindful development,
-        rooted in philosophies of balance, self-discipline, and continuous growth.
+        I am a hard worker, I strive for perfection and I have experience in multiple disciplines. Whatever kind of work you are looking to have done, I can do it.
     </p>
 </section>
 
@@ -77,12 +75,6 @@
             </figcaption>
         </figure>
 
-        <figure>
-            <img src={asset("/images/about/bamboo.png")} alt="Tranquil Path through Bamboo Forest" />
-            <figcaption>
-                A winding path through bamboo — evoking balance, flexibility, and quiet persistence.
-            </figcaption>
-        </figure>
     </div>
 </section>
 

@@ -1,7 +1,7 @@
 export async function entries() {
 	return [
 		{ title: "Dregs Drought" },
-		{ title: 'Pegasus Drawing' },
+		{ title: "Pegasus Drawing" },
 		{ title: "3d contruction crane" },
 		{ title: "Spray style mustang" },
 		{ title: "Red planet digital painting" },
@@ -15,7 +15,6 @@ export async function entries() {
 		{ title: "dagger" },
 		{ title: "Snow patrol" },
 		{ title: "Two faced" }
-		// Add all valid catalogue IDs here
 	];
 }
 

@@ -40,3 +40,5 @@ You can preview the production build with `npm run preview`.
 putting text here to help push .........
 
 Ive added just about everything i need, ive done the best i can and i hope it is sufficient
+
+...eqwlbfladfeahfuaf;anef

@@ -17,11 +17,11 @@
     </p>
 </section>
 
-<section class="principles section-shinobi">
+<section>
     
 </section>
 
-<section class="virtues section-bushido">
+<section>
     <h2>Contact: codycopperthwaithe@gmail.com</h2>
     
 </section>

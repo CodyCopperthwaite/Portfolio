@@ -2,29 +2,6 @@
     import { asset } from '$app/paths';
     import { PhilosophyCard } from '$lib/components';
 
-    const principles = [
-        { title: 'Know the Self', description: 'Understand your mind, body, and purpose.' },
-        { title: 'Adaptability', description: 'Embrace constant change. Flow like water.' },
-        { title: 'Emotional Control', description: 'Resist impulsive action and fear.' },
-        { title: 'Presence of Mind', description: 'Stay calm. Focus on now.' },
-        { title: 'Observation', description: 'Sharpen your senses to see what others miss.' },
-        { title: 'Invisibility', description: 'Let go of ego. Blend with your surroundings.' },
-        { title: 'Preparation', description: 'Always be ready. Anticipate challenges.' },
-        { title: 'Decisiveness', description: 'Act swiftly. Trust your training.' },
-        { title: 'Continuous Training', description: 'Refine your skills daily.' },
-        { title: 'Respect Nature', description: 'Live in tune with the world around you.' },
-        { title: 'Purposeful Living', description: 'Let values guide your path.' }
-    ];
-
-    const virtues = [
-        { title: 'Gi – Rectitude', description: 'Do what is right by principle and justice.' },
-        { title: 'Yū – Courage', description: 'Face danger with bravery and honour.' },
-        { title: 'Jin – Benevolence', description: 'Show compassion and act for others.' },
-        { title: 'Rei – Respect', description: 'Demonstrate courtesy and politeness.' },
-        { title: 'Makoto – Honesty', description: 'Speak truth and act with integrity.' },
-        { title: 'Meiyo – Honour', description: 'Uphold your reputation and values.' },
-        { title: 'Chūgi – Loyalty', description: 'Be faithful to your word and duties.' }
-    ];
 </script>
 
 
@@ -41,25 +18,16 @@
 </section>
 
 <section class="principles section-shinobi">
-    <h2>11 Principles of the Shinobi</h2>
-    <div class="principle-grid">
-        {#each principles as principle}
-            <PhilosophyCard {...principle} theme="shinobi" />
-        {/each}
-    </div>
+    
 </section>
 
 <section class="virtues section-bushido">
-    <h2>The 7 Virtues of Bushidō</h2>
-    <div class="virtue-grid">
-        {#each virtues as virtue}
-            <PhilosophyCard {...virtue} theme="bushido" />
-        {/each}
-    </div>
+    <h2>Contact: codycopperthwaithe@gmail.com</h2>
+    
 </section>
 
 <section class="gallery section-gallery">
-    <h2>Philosophical Inspirations</h2>
+    <h2>About me</h2>
     <div class="grid">
         <figure>
             <img src={asset("/images/about/shrine.png")} alt="Mountain Shrine at Dawn" />

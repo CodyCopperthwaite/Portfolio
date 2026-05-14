@@ -42,6 +42,10 @@
 
 <section class="item-detail">
 	<div class="detail-content">
+		<button class="back-button" on:click={() => goto('/catalogue')} aria-label="Back to catalogue">
+			← Back to Catalogue
+		</button>
+
 		<img class="hero-image" src={asset(item.image)} alt={`Image for ${item.title}`} />
 
 		<h1>{item.title}</h1>
@@ -134,6 +138,28 @@
 	.description {
 		margin: 0; /* Remove extra margins */
 		line-height: 1.65;
+	}
+
+	.back-button {
+		align-self: flex-start;
+		background: var(--color-accent);
+		color: var(--text-contrast);
+		border: none;
+		padding: var(--space-xs) var(--space-sm);
+		border-radius: var(--radius-sm);
+		font-size: var(--font-sm);
+		cursor: pointer;
+		transition: background-color var(--transition-fast);
+		margin-bottom: var(--space-md);
+	}
+
+	.back-button:hover {
+		background-color: var(--color-highlight);
+	}
+
+	.back-button:focus-visible {
+		outline: 2px solid var(--color-accent);
+		outline-offset: 2px;
 	}
 
 	.tags {

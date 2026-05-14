@@ -45,7 +45,7 @@
 
 <section class="catalogue-wrapper">
 	<div class="catalogue-heading-wrapper">
-		<h1 class="catalogue-heading">Catalogue</h1>
+		<h1 class="catalogue-heading">Gallery</h1>
 	</div>
 
 	<div class="controls">
